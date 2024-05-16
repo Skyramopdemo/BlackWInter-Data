@@ -1,0 +1,11 @@
+{
+    "Bola de Fogo": {
+        "Custo": 10,
+        "Dano": "1d10",
+        "Tipo": "",
+        "Tipo de Dano": "Elemental/Fogo",
+        "Tempo de Conjuracao": "1 ação",
+        "Area": "5",
+        "Descricao": "" 
+    }
+}
