@@ -364,7 +364,6 @@
     },
     "equipamentos": {
         "Cetro": {
-            "Nome": "Cetro",
             "Peso": 0.5,
             "Modificador": "1d4",
             "TipoModificador": "Dano", 
@@ -373,7 +372,6 @@
             "Descricao": "Cetro é uma pequena aste de materiais diversos que permite a melhor manipulação da Mana"
         },
         "Espada Longa": {
-            "Nome": "Espada Longa",
             "Peso": 1.5,
             "Modificador": "1d8",
             "TipoModificador": "Dano", 
@@ -382,7 +380,6 @@
             "Descricao": "Espada longa é uma das maiores espadas em uso, perdendo somente para a espada montante."
         },
         "Espada Montante": {
-            "Nome": "Espada Montante",
             "Peso": 2,
             "Modificador": "1d10",
             "TipoModificador": "Dano", 
@@ -391,7 +388,6 @@
             "Descricao": "O Montante é um tipo de espada que se destaca por ser maior que as demais, chegando a medir, em média, 150 cm de comprimento."
         },
         "Armadura de Couro": {
-            "Nome": "Armadura de Couro",
             "Peso": 3,
             "Modificador": "2",
             "TipoModificador": "Armadura", 
@@ -400,7 +396,6 @@
             "Descricao": "Armadura de couro é um tipo de roupa de proteção feita de peles de animais curtidas, geralmente de vacas ou ovelhas."
         },
         "Cota de Malha": {
-            "Nome": "Cota de Malha",
             "Peso": 10,
             "Modificador": "4",
             "TipoModificador": "Armadura", 
@@ -409,7 +404,6 @@
             "Descricao": "A cota de malha é um aparato utilizado como proteção para o corpo, que consiste em uma série de entrelaçamentos de pequenas argolas de metal (muitas vezes ferro forjado, aço ou até ligas de ouro)."
         },
         "Gamberson": {
-            "Nome": "Gamberson",
             "Peso": 3,
             "Modificador": "1",
             "TipoModificador": "Armadura", 
@@ -420,7 +414,6 @@
     },
     "mistos": {
         "Poção de Cura Menor": {
-            "Nome": "Poção de Cura Menor",
             "Peso": 0.5,
             "Modificador": "10",
             "Tipo": "Vida", 
@@ -428,7 +421,6 @@
             "Descricao": ""
         },
         "Poção de Mana Menor": {
-            "Nome": "Poção de Mana Menor",
             "Peso": 0.5,
             "Modificador": "5",
             "Tipo": "Mana", 
