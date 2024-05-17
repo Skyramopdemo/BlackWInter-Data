@@ -416,7 +416,7 @@
         "Poção de Cura Menor": {
             "Peso": 0.5,
             "Modificador": "10 Vida",
-            "Efeito": "",
+            "Efeito": "Restaura 10 de Vida",
             "Descricao": ""
         },
         "Poção de Mana Menor": {
