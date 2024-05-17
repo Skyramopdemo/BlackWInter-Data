@@ -415,15 +415,13 @@
     "mistos": {
         "Poção de Cura Menor": {
             "Peso": 0.5,
-            "Modificador": "10",
-            "Tipo": "Vida", 
+            "Modificador": "10 Vida",
             "Efeito": "",
             "Descricao": ""
         },
         "Poção de Mana Menor": {
             "Peso": 0.5,
-            "Modificador": "5",
-            "Tipo": "Mana", 
+            "Modificador": "5 Mana",
             "Efeito": "",
             "Descricao": ""
         }
