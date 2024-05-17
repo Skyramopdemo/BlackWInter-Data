@@ -1,0 +1,32 @@
+{
+    "Agilidade": {
+        "Custo": 2,
+        "Maximo": 25,
+        "Tipo": "Passiva",
+        "Mod": "velocidade/x",
+        "Descricao": "Você aumenta a sua velocidade em X metros"
+    },
+    "Regeneração": {
+        "Custo": 5,
+        "Maximo": 10,
+        "Tipo": "Passiva",
+        "Mod": "reneracao/x",
+        "Descricao": "Você regenera X pontos de vida por turno"
+    },
+    "Resistência Magica": {
+        "Custo": 2,
+        "Maximo": 25,
+        "Tipo": "Passiva",
+        "Mod": "reduz(magia)/x",
+        "Descricao": "Você reduz o dano recebido de origens mágicas em X"
+    },
+    "Vexillum Mortis": {
+        "Custo": 30,
+        "Maximo": 1,
+        "Tipo": "Ativa",
+        "Duracao": "1 Hora",
+        "Recarga": "1 Semana",
+        "Mod": "",
+        "Descricao": "Você poderá encantar um estandarte de sua escolha, enquanto esta habilidade estiver ativa todas as criaturas em um raio de 10 metros não poderão morrer, e caso rolem 10 ou menos eles voltaram ao combate com 1 de vida, o portador do estandarte poderá escolher as criaturas ao qual este efeito é aplicado."
+    }
+}
