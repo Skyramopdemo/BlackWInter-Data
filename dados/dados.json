@@ -273,24 +273,51 @@
     },
     "racas":{
         "Humano": {
-            "Pontos": 8
+            "Pontos": 8,
+            "vida": 0,
+            "mana": 0,
+            "esquiva": 0,
+            "armadura": 0,
+            "ataqueM": 0,
+            "ataqueL": 0,
+            "ataqueC": 0
         },
         "Elfo": {
             "Pontos": 5,
-            "mana": 3
+            "vida": 0,
+            "mana": 3,
+            "esquiva": 0,
+            "armadura": 0,
+            "ataqueM": 0,
+            "ataqueL": 0,
+            "ataqueC": 0
         },
         "Anao": {
             "Pontos": 5,
-            "vida": 3
+            "vida": 3,
+            "mana": 0,
+            "esquiva": 0,
+            "armadura": 0,
+            "ataqueM": 0,
+            "ataqueL": 0,
+            "ataqueC": 0
         },
         "Homem-Lagarto": {
             "Pontos": 5,
             "vida": 1,
+            "mana": 0,
             "esquiva": 1,
-            "armadura": 1
+            "armadura": 1,
+            "ataqueM": 0,
+            "ataqueL": 0,
+            "ataqueC": 0
         },
         "Nascido do Dragão": {
             "Pontos": 5,
+            "vida": 0,
+            "mana": 0,
+            "esquiva": 0,
+            "armadura": 0,
             "ataqueM": 1,
             "ataqueL": 1,
             "ataqueC": 1
