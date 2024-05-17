@@ -1,17 +1,6 @@
 {
     "magias":{
-        "Bola de Fogo": {
-            "Custo": 10,
-            "Modificador de Custo": "0",
-            "Tempo de Conjuracao": "1 ação",
-            "Alcance": "30 metros",
-            "Dado": "1d10",
-            "Tipo de Dado": "Dano/(Elemental/Fogo)",
-            "Area": "5 metros",
-            "Duracao": "",
-            "Descricao": "Você conjura uma enorme bola de fogo e a lança na direção desejada explodindo ao contato, causando enorme dando." 
-        },
-    
+        
         "Alfa": {
             "Custo": 50,
             "Modificador de Custo": "0",
@@ -23,7 +12,18 @@
             "Duracao": "3 turnos",
             "Descricao": "Você cria uma enorme aura celestial na area desejado causando 10d10 de dano radiante por turno e as deixando cegas durante a duração da magia. Esta magia causa o dobro de dano contra Morto-Vivos, Demônios e Diabos, e recupera  a vida de criaturas celestiais na mesma proporção"         
         },
-    
+        "Bola de Fogo": {
+            "Custo": 10,
+            "Modificador de Custo": "0",
+            "Tempo de Conjuracao": "1 ação",
+            "Alcance": "30 metros",
+            "Dado": "1d10",
+            "Tipo de Dado": "Dano/(Elemental/Fogo)",
+            "Area": "5 metros",
+            "Duracao": "",
+            "Descricao": "Você conjura uma enorme bola de fogo e a lança na direção desejada explodindo ao contato, causando enorme dando." 
+        },
+        
         "Campo Antimagia":{
             "Custo": 50,
             "Modificador de Custo": "0",
