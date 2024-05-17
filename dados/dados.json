@@ -301,6 +301,8 @@
             "Custo": 2,
             "Maximo": 25,
             "Tipo": "Passiva",
+            "Duracao": "",
+            "Recarga": "",
             "Mod": "velocidade/x",
             "Descricao": "Você aumenta a sua velocidade em X metros"
         },
@@ -308,6 +310,8 @@
             "Custo": 5,
             "Maximo": 10,
             "Tipo": "Passiva",
+            "Duracao": "",
+            "Recarga": "",
             "Mod": "reneracao/x",
             "Descricao": "Você regenera X pontos de vida por turno"
         },
@@ -315,6 +319,8 @@
             "Custo": 2,
             "Maximo": 25,
             "Tipo": "Passiva",
+            "Duracao": "",
+            "Recarga": "",
             "Mod": "reduz(magia)/x",
             "Descricao": "Você reduz o dano recebido de origens mágicas em X"
         },
