@@ -1,0 +1,18 @@
+{
+    "Poção de Cura Menor": {
+        "Nome": "Poção de Cura Menor",
+        "Peso": 0.5,
+        "Modificador": "10",
+        "Tipo": "Vida", 
+        "Efeito": "",
+        "Descricao": ""
+    },
+    "Poção de Mana Menor": {
+        "Nome": "Poção de Mana Menor",
+        "Peso": 0.5,
+        "Modificador": "5",
+        "Tipo": "Mana", 
+        "Efeito": "",
+        "Descricao": ""
+    }
+}

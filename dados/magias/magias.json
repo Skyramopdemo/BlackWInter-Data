@@ -1,11 +1,272 @@
 {
     "Bola de Fogo": {
         "Custo": 10,
-        "Dano": "1d10",
-        "Tipo": "",
-        "Tipo de Dano": "Elemental/Fogo",
+        "Modificador de Custo": "0",
         "Tempo de Conjuracao": "1 ação",
-        "Area": "5",
-        "Descricao": "" 
+        "Alcance": "30 metros",
+        "Dado": "1d10",
+        "Tipo de Dado": "Dano/(Elemental/Fogo)",
+        "Area": "5 metros",
+        "Duracao": "",
+        "Descricao": "Você conjura uma enorme bola de fogo e a lança na direção desejada explodindo ao contato, causando enorme dando." 
+    },
+
+    "Alfa": {
+        "Custo": 50,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "30 metros",
+        "Dado": "10d10",
+        "Tipo de Dado": "Dano/(Celestial)",
+        "Area": "10 metros",
+        "Duracao": "3 turnos",
+        "Descricao": "Você cria uma enorme aura celestial na area desejado causando 10d10 de dano radiante por turno e as deixando cegas durante a duração da magia. Esta magia causa o dobro de dano contra Morto-Vivos, Demônios e Diabos, e recupera  a vida de criaturas celestiais na mesma proporção"         
+    },
+
+    "Campo Antimagia":{
+        "Custo": 50,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "20 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "20 metros",
+        "Duracao": "6 turnos",
+        "Descricao": "Você cria um campo que nega a conjuração de todas as magias de custo menor ou igual a 50 por 6 turnos"
+    },
+
+    "Concertar":{
+        "Custo": 2,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "toque",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "",
+        "Descricao": "Você poderá reconstruir ou concertar algum equipamento mundano, ele deverá ter um dano pequeno ou médio para ser concertado"
+    },
+
+    "Convocar Criatura":{
+        "Custo": 5,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "1 dia",
+        "Descricao": "Você poderá convocar alguma criatura (não magica). Verificar com o Mestre qual os dados do mesmo"
+    },
+    
+    "Convocar Elemental":{
+        "Custo": 10,
+        "Modificador de Custo": "x",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "1 dia",
+        "Descricao": "Você poderá convocar um elemental do Tier escolido. Verificar com o Mestre qual os equipamentos e dados do mesmo"
+    },
+    "Convocar Lenda":{
+        "Custo": 100,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "3 ações",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "10 metros",
+        "Duracao": "1 dia",
+        "Descricao": "Você poderá convocar alguma criatura, entidade ou ser mitologico (do universo de BlackWinter ou outro). Verificar com o mestre qual os equipamentos e dados do mesmo. Ex: Convocar o Rei Arthur"
+    },
+
+    "Coração de Leão":{
+        "Custo": 5,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "5 turnos",
+        "Descricao": "Você concede coragem a criatura alvo, deixando a mesma imune a condição Medo por 5 turno"
+    },
+    "Cura":{
+        "Custo": 5,
+        "Modificador de Custo": "x",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "toque",
+        "Dado": "xd10",
+        "Tipo de Dado": "Cura",
+        "Area": "1 individuo",
+        "Duracao": "",
+        "Descricao": "Você cura a criatura alvo, restaurando ferimentos leves."
+    },
+    "Dormir":{
+        "Custo": 5,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "toque",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "",
+        "Descricao": "Você toca a criatura alvo lhe deixando sonolenta, esta criatura deverá fazer um teste, caso ela falhe ela adormece. Esta magia não tem efeito contra criatura que não precisam dormir"
+    },
+
+    "Fala Bestial":{
+        "Custo": 10,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "toque",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "1 hora",
+        "Descricao": "A criatura a qual você tocar ganhará a habilidade de se comunicar com animais e seres bestiais de baixa inteligência por 1 hora"
+    },
+    
+    "Fala Selvagem":{
+        "Custo": 10,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "toque",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "1 hora",
+        "Descricao": "A criatura a qual você tocar ganhará a habilidade de se comunicar com plantas por 1 hora"
+    },
+    
+    "Lança Elemental":{
+        "Custo": 5,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "60 metros",
+        "Dado": "1d6",
+        "Tipo de Dado": "Dano/(Elemental/Escolha)",
+        "Area": "1 individuo",
+        "Duracao": "",
+        "Descricao": "Você conjura uma lança do elemento desejado causando dano à criatura alvo"
+    },
+
+    "Levitação":{
+        "Custo": 10,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "3 metros",
+        "Duracao": "1 hora",
+        "Descricao": "Você concede a capacidade de levitar as criaturas alvos desejadas em até 3 metros, desta forma a velocidade de queda das mesma se torna o que a criatura desejar. Esta magia dura até 1 hora."
+    },
+    
+    "Negar Magia":{
+        "Custo": 1,
+        "Modificador de Custo": "x",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "20 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "",
+        "Descricao": "Você nega a conjuração de uma magia pagando o mesmo custo que o custo da magia conjurada"
+    },
+    
+    "Nuvem Purulenta":{
+        "Custo": 25,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "2 ações",
+        "Alcance": "30 metros",
+        "Dado": "xd8",
+        "Tipo de Dado": "Dano por Turno/(Venenoso)",
+        "Area": "15 metros",
+        "Duracao": "10 turnos",
+        "Descricao": "Você convoca uma nuvem que infecta todos aqueles que a respirarem. Estas criaturas que respiram deste gás sofrerão Xd8 de Dano Venenoso, sendo X a quantidade de turnos que ficaram respirando desta gás. Caso a criatura fique 4 turnos em contato com o gás a criatura começa a criar bolhas de pus por todo o corpo, e caso fique em contato com o gás por mais 2 turnos após receber as bolhas elas estouraram causando um adicional de 1d10 de dano por turno."
+    },
+
+    "Maldição":{
+        "Custo": 25,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "2 ações",
+        "Alcance": "30 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "",
+        "Descricao": "Você amaldiçoa a criatura alvo, (Veja tabela para saber quais maldições poderão ser aplicadas), esta maldição só poderá ser removida por uma maiga de cura ou similar de custo 30 ou mais."
+    },
+    "Maximiar Magia: Magias Duplas":{
+        "Custo": 30,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "",
+        "Descricao": "A sua próxima magia que custe 1 Ação, você irá conjurar duas vezes a mesma magia"
+    },
+    "Maximiar Magia: Camufalr":{
+        "Custo": 10,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "",
+        "Descricao": "A sua próxima magia que custe 1 Ação, você irá alterar a aparência e modo de conjuração da magia para outra a sua escolha. ISTO NÃO AFETA O DANO E FEITO DA MAGIA ORIGINAL"
+    },
+    
+    "Maximiar Magia: Ampliar":{
+        "Custo": 20,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "",
+        "Duracao": "",
+        "Descricao": "A sua próxima magia que custe 1 Ação, você irá alterar OU o Alcance da Magia OU a Área, aumentando as memsa em até 20 Metros"
+    },
+    
+    "Sedimentar: ":{
+        "Custo": 2,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "toque",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 metro3",
+        "Duracao": "",
+        "Descricao": "Você desintegra um objeto que tocar, em até um metro cúbico"
+    },
+
+    "Selo de Ankh: ":{
+        "Custo": 5,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação",
+        "Alcance": "10",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "",
+        "Descricao": "A criatura alvoa será aprisionada espiritualmente, impedindo a mesma de se locomover. Esta magia necessita que a criatura esteja lhe observando durate a conjuração e que a crituar não esteja sob efeito da condição Medo"
+    },
+    
+    "Sorte do Diabo: ":{
+        "Custo": 15,
+        "Modificador de Custo": "0",
+        "Tempo de Conjuracao": "1 ação bônus",
+        "Alcance": "10 metros",
+        "Dado": "",
+        "Tipo de Dado": "",
+        "Area": "1 individuo",
+        "Duracao": "2 turnos",
+        "Descricao": "A criatura alvo deverá rolar novamente todos os dados '1' que a mesma tirar"
     }
 }
