@@ -1,32 +1,5 @@
 {
-    "ataques":{
-        
-    },
-    "racas": {
-        "Humano": {
-            "Pontos": 8
-        },
-        "Elfo": {
-            "Pontos": 5,
-            "mana": 3
-        },
-        "Anao": {
-            "Pontos": 5,
-            "vida": 3
-        },
-        "Homem-Lagarto": {
-            "Pontos": 5,
-            "vida": 1,
-            "esquiva": 1,
-            "armadura": 1
-        },
-        "Nascido do Dragão": {
-            "Pontos": 5,
-            "ataqueM": 1,
-            "ataqueL": 1,
-            "ataqueC": 1
-        }
-    },
+    
     "equipamentos": {
         "Cetro": {
             "Nome": "Cetro",

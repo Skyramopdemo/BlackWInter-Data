@@ -1,0 +1,34 @@
+{
+    "Ataque Forte": {
+        "Custo": 15,
+        "Custo de Acao": "ação",
+        "Tipo": "Ataque",
+        "Mod": "dado(extra)/dado(max(roll))",
+        "Requisitos": "",
+        "Descricao": "Esta habilidade substitui seu ataque normal. Ao utilizar esta habilidade você realizará um ataque forte contra o oponente, você deverá rolar um dado extra para o ataque realizado, para todo dado máximo que você tirar você poderá rolar um dado adicional." 
+    },
+    "Contra-Ataque": {
+        "Custo": 5,
+        "Custo de Acao": "reação",
+        "Tipo": "Defesa",
+        "Mod": "ataque",
+        "Requisitos": "",
+        "Descricao": "Antes do calculo da sua esquiva você poderá realizar um Contra-Ataque, realizando um teste de ataque, caso supere o teste de ataque do oponente você poderá ataca-lo sem sofrer danos, porém caso falhar o seu teste de esquiva terá desvantagem." 
+    },
+    "Defesa Magnus": {
+        "Custo": 10,
+        "Custo de Acao": "reação",
+        "Tipo": "Defesa",
+        "Mod": "roll(1d4)",
+        "Requisitos": "",
+        "Descricao": "Após do calculo de dano você poderá utilizar esta habilidade, você poderá rolar 1d4 de armadura adicional para cada dado máximo que o oponente tiver rolado. " 
+    },
+    "Mira Perfeita": {
+        "Custo": 10,
+        "Custo de Acao": "ação bônus",
+        "Tipo": "Ataque",
+        "Mod": "damage(half)",
+        "Requisitos": "Arma de Longo Alcance",
+        "Descricao": "Antes de realizar um teste de ataque você poderá utilizar esta habilidade, garantido que você acertara o próximo ataque, no entanto você causará apenas metade do dano." 
+    }
+}
